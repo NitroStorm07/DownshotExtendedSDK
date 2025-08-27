@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.16",
+	"FriendlyName": "DOWNSHOT_SDK",
+	"Description": "SDK for DOWNSHOT mods.",
+	"Category": "Other",
+	"CreatedBy": "CMVR Game Studios LLC",
+	"CreatedByURL": "",
+	"DocsURL": "https://www.downshotvr.com/beta-modding",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DOWNSHOT_SDK_Editor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"DisallowedPlugins": [
+		"OpenXR",
+		"XRBase"
+	]
+}
